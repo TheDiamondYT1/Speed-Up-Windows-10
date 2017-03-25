@@ -1,11 +1,7 @@
 @echo off
-goto killitunes
+
 goto deltemp
 goto delprefetch
-
-:killitunes
-title "Killing Processes..."
-taskkill /F /IM iTunesHelper
 
 :deltemp
 title "Deleting temporary files..."
